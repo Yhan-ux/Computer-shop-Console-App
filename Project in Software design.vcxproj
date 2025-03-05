@@ -128,7 +128,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Project in Software design.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shop.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shop.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
